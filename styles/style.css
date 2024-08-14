@@ -290,3 +290,140 @@
     font-family: Inter;
     font-weight: 400;  
 }
+
+/* extra mile section styles */
+.extra-mile-section{
+    padding: 5rem 0;
+    background-color: rgb(0, 0, 0);
+}
+.extra-mile-container{
+    width: 80%;
+    height: 30.625rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+
+.extra-mile-contents{
+    width: 50%;
+    margin-left: 5.875rem;
+}
+.extra-mile-contents h1{
+    color: rgb(255, 255, 255);;
+    font-size: 3rem;
+    font-family: Inter;
+    font-weight: 900;
+    margin-bottom: 0.875rem;
+}
+.extra-mile-contents p{
+    width: 78%;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.3px;
+    margin-bottom: 2.125rem;
+}
+.extra-mile-img{
+    width: 40%;
+    margin: 0 auto;
+}
+.extra-mile-img img{
+    width: 26.625rem;
+    height: 23.25rem;
+    border-radius: 18px;
+    object-fit: none;
+    object-position: 65% 28%;
+}
+
+/* Trainings and Exercises  style*/
+.trainings-exercise-section{
+    padding: 5rem 0;
+    background: rgb(14, 13, 13);
+}
+
+.training-exercise-container{
+    width: 80%;
+    height: 35.625rem;
+    margin: 0 auto;
+    border-radius: 18px;
+    background: rgb(24, 23, 23);
+    border: 2px dashed rgba(199, 197, 197, 0.5);
+
+}
+.training-exercise-contents h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    padding-top:2.5rem;
+}
+.training-exercise-contents p{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.875rem;
+    padding-top: 0.625rem;
+    font-weight: 400;
+}
+
+.training-img-container{
+    width: 100%;
+    padding-top: 3.75rem;
+    margin: 0 auto;
+    display: flex;
+}
+.training-img-container img{
+    width: 14.875rem;
+    height: 9.875rem;
+    border-radius:4%;
+
+}
+.training-images{
+    width: 70%;
+    margin: 0 auto;
+    height: 21.875rem;
+    position: relative;
+}
+.training-img-1{
+    position: absolute;
+    top: 0%;
+    left:35%
+}
+.training-img-2{
+    position: absolute;
+    top: 37%;
+    left:15%
+}
+.training-img-3{
+    position: absolute;
+    top: 45%;
+    left:51%
+}
+.training-img-contents {
+  width: 50%;
+}
+.training-img-contents h3{
+    margin-top: 1.875rem;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2.375rem;
+    font-weight: 900;
+}
+.training-img-contents p{
+    width: 80%;
+    margin-top: 1.25rem;
+    font-family: Inter;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.0188rem;
+}
