@@ -1,0 +1,292 @@
+/* google font link */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+*{
+    box-sizing: 0;
+    margin: 0%;
+    padding: 0%;
+}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+.color{
+    background: linear-gradient(to bottom, #131313,#252525,#080808);
+}
+
+
+.btn-primary{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    width: 14rem;
+    height: 3.375rem;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* header part style */
+
+.header-container{
+    background-color: rgb(0, 0, 0);
+    padding-top: 3rem;
+}
+
+/* navigation bar style */
+.nav-bar{
+    max-width: 80%;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 43%;
+    color: rgb(230, 83, 60);
+    font-size: 2.25rem;
+    font-family: Inter;
+    font-weight: 800;
+}
+.nav-option{
+    width: 42%;
+    margin: 0 auto;
+    display: flex; 
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding:1rem 2rem 1rem 0.5rem ;
+}
+.orange-home{
+    padding: 0.7rem 2rem;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+}
+.nav-option ul {
+    display: flex;
+    gap: 3rem;
+}
+.nav-option ul li {
+    list-style: none; 
+    padding-right: 1rem;
+}
+.nav-option a{
+    text-decoration: none;  
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+/* banner style */
+.banner-container{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.banner-content-element {
+    width: 45%;
+}
+.banner-content-element h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 4.875rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.shape{
+    font-family: 'Miama';
+    color: rgb(255, 255, 255);
+    font-size: 9.25rem;
+    font-weight: 400;
+    letter-spacing: 0%;
+}
+.banner-content-element p{
+    width: 100%;
+    /* border: 2px solid #ffffff; */
+    color: rgba(255, 255, 255, 0.5);
+    font-size:1rem;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-top: 2rem;
+}
+.buttons{
+    margin-top: 1.875rem;
+    display: flex;
+    gap:0.875rem;
+}
+.btn-black{
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-family: Inter;
+    font-weight: 600;
+    width: 14rem;
+    height: 3.375rem;
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+}
+.banner-image-container{
+    width: 55%;
+    position: relative;
+    
+}
+.banner-image img{
+    width: 19.375rem;
+    padding-left: 10rem;
+    height: 34.375rem;
+}
+.small-box1{
+    width: 12.07rem;
+    height: 6.125rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 19%;
+    left: 56%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.small-box1-content{
+    width:100% ;
+    padding-left: 1.25rem;
+    
+}
+.small-box1 h3{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-family: Inter;
+    font-weight: 900;
+    
+}
+.small-box1 p{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 0.8125rem;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 1.25rem;
+}
+
+.small-box2{
+    width: 12.875rem;
+    height:6rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    top: 74%;
+    left: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.small-box2-content{
+    margin-bottom: 0.94rem;
+}
+.orange-ball{
+    width: 2.5rem;
+    height: 2.5rem;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+    margin-right: 0.75rem;
+
+}
+.small-box2 h4{
+    color: rgb(250, 250, 249);
+    font-size: 1.5rem;
+    font-family: Inter;
+    font-weight: 900; 
+}
+.small-box2 p{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+/* change habit section */
+.change-habit-section{
+    padding-top: 3rem;
+    background-color: rgb(0, 0, 0);
+}
+
+.change-habit-container{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.change-habit-content{
+    width: 100%;
+}
+.change-habit-tittle{
+    width: 45.625rem;
+    margin: 2rem auto;
+    text-align: center;
+}
+.change-habit-tittle h2{
+    color: white;
+    font-size: 3rem;
+    font-family: Inter;
+}
+.change-habit-tittle p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size:1rem;
+    font-family: Inter;
+    font-weight: 400;
+    margin-top: 0.75rem;
+
+}
+.change-habit-img-container{
+   width: 90%;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(4 ,1fr);
+   gap: 3.125rem;
+}
+.change-habit-img-container img{
+    width:70%;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.img-1,.img-2,.img-3,.img-4, h5{
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-family: Inter;
+    font-weight: 600;
+    text-align: center;
+    margin: 1.25rem 0 0.625rem 0 ;
+}
+.change-habit-img-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-family: Inter;
+    font-weight: 400;  
+}
